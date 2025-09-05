@@ -1,15 +1,15 @@
 ﻿id;x;y;name;icon;priority;photo;desc
-1;1043;1344;Вертодром;icons/heliport.svg;10;;Вертодром
-2;2605;1709;Реми;icons/grocery.svg;10;;Реми
-3;2486;1830;Аптека;icons/pharmacy.svg;5;;Аптека
-4;5015;2834;Счастье в горах;icons/hotel.svg;10;photos/hotel.jpg;Счастье в горах
-5;1619;3279;Натуралист;icons/bar.svg;10;;Натуралист
-6;2606;1829;Point Coffee;icons/coffee.svg;7;;Point Coffee
-7;3537;3810;Dream Coffee;icons/coffee.svg;8;;Dream Coffee
-8;1823;3386;Рай-Ski-Домик;icons/hotel.svg;10;photos/hotel.jpg;Рай-Ski-Домик
-9;3003;3750;Поляна 515;icons/hotel.svg;10;photos/hotel.jpg;Поляна 515
-10;4736;2407;Парк Шале;icons/hotel.svg;10;photos/hotel.jpg;Парк Шале
-11;1291;3276;Династия;icons/hotel.svg;10;photos/hotel.jpg;Династия
-12;2485;1710;Greek House;icons/hotel.svg;10;photos/hotel.jpg;Greek House
-13;2832;2425;Булки в горах;icons/cafe.svg;10;photos/cafe.jpg;Булки в горах
-14;3218;2324;Alba Inn Apartments;icons/hotel.svg;10;photos/hotel.jpg;Alba Inn Apartments
+1;1043;1344;Вертодром;icons/heliport.svg;1;;Вертодром
+2;2605;1709;Реми;icons/grocery.svg;2;;Реми
+3;2486;1830;Аптека;icons/pharmacy.svg;4;;Аптека
+4;5015;2834;Счастье в горах;icons/hotel.svg;1;photos/hotel.jpg;Счастье в горах
+5;1619;3279;Натуралист;icons/bar.svg;1;;Натуралист
+6;2606;1829;Point Coffee;icons/coffee.svg;3;;Point Coffee
+7;3537;3810;Dream Coffee;icons/coffee.svg;1;;Dream Coffee
+8;1823;3386;Рай-Ski-Домик;icons/hotel.svg;1;photos/hotel.jpg;Рай-Ski-Домик
+9;3003;3750;Поляна 515;icons/hotel.svg;1;photos/hotel.jpg;Поляна 515
+10;4736;2407;Парк Шале;icons/hotel.svg;1;photos/hotel.jpg;Парк Шале
+11;1291;3276;Династия;icons/hotel.svg;1;photos/hotel.jpg;Династия
+12;2485;1710;Greek House;icons/hotel.svg;1;photos/hotel.jpg;Greek House
+13;2832;2425;Булки в горах;icons/cafe.svg;1;photos/cafe.jpg;Булки в горах
+14;3218;2324;Alba Inn Apartments;icons/hotel.svg;1;photos/hotel.jpg;Alba Inn Apartments
