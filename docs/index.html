@@ -2,11 +2,11 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8"/>
-  <title>Карта Красной Поляны — тайлы + POI из CSV</title>
+  <title>Карта Красной Поляны — тайлы + POI</title>
   <link rel="stylesheet" href="style.css"/>
-  <!-- OpenSeadragon -->
+  <!-- Внешние зависимости-глобалы -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/openseadragon.min.css">
-  <!-- PapaParse для CSV -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/openseadragon.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
 </head>
 <body>
@@ -23,7 +23,7 @@
     <button id="reset"    type="button" title="Показать целиком">⤾</button>
   </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/openseadragon.min.js"></script>
-  <script src="script.js"></script>
+  <!-- Наше приложение модульно -->
+  <script type="module" src="./app.js"></script>
 </body>
 </html>
