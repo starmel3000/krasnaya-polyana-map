@@ -1,86 +1,86 @@
-﻿id;x;y;name;icon;priority;photo;desc
-1;1043;1344;Вертодром;icons/heliport.svg;1;;
-2;2605;1709;Реми;icons/mall.svg;1;;
-3;3711;139;Аптека;icons/pharmacy.svg;4;;
-4;2486;1830;Аптека;icons/pharmacy.svg;4;;
-5;5015;2834;Счастье в горах;icons/hotel.svg;1;;
-6;1619;3279;Натуралист;icons/bar.svg;1;;
-7;2606;1829;Point Coffee;icons/coffee.svg;3;;
-8;3537;3810;Dream Coffee;icons/coffee.svg;3;;
-9;1823;3386;Рай-Ski-Домик;icons/hotel.svg;1;photos/hotel.jpg;
-10;3003;3750;Поляна 515;icons/hotel.svg;1;;
-11;4736;2407;Парк Шале;icons/hotel.svg;1;;
-12;1291;3276;Династия;icons/hotel.svg;1;;
-13;2485;1710;Greek House;icons/hotel.svg;1;;
-14;2832;2425;Булки в горах;icons/cafe.svg;3;photos/cafe.jpg;
-15;3218;2324;Alba Inn Apartments;icons/hotel.svg;1;;
-16;2828;622;Mom’s Coffee;icons/coffee.svg;3;;
-17;1406;3954;Greco Megusto;icons/cafe.svg;3;;
-18;4135;6323;Дзен Поляна;icons/hotel.svg;1;;
-19;3248;6770;Ровесники;icons/cafe.svg;3;;
-20;2764;6835;Трикони;icons/cafe.svg;3;;
-21;2374;7214;Утомлённые солнцем;icons/hotel.svg;1;;
-22;1396;8101;Alm House;icons/hotel.svg;1;;
-23;1765;10238;Парк «Фруктовый сад»;icons/park.svg;1;;
-24;3102;10556;Беларусь;icons/hotel.svg;1;;
-25;2474;6450;Вальс цветов Редэнс;icons/hotel.svg;1;;
-26;4494;1512;Тукан;icons/hotel.svg;1;;
-27;1587;426;Solar;icons/hotel.svg;1;;
-28;3257;1323;4Rest Neolit;icons/hotel.svg;1;;
-29;5974;2442;Яблоки печём;icons/cafe.svg;3;;
-30;1330;9184;Вареничная;icons/cafe.svg;3;;
-31;1261;9320;АЗС;icons/fuel.svg;4;;
-32;2335;5023;Пункт проката;icons/rent.svg;4;;
-33;1357;8491;Пункт проката;icons/rent.svg;4;;
-34;2427;7093;Пункт проката;icons/rent.svg;4;;
-35;2154;8519;ГК «Поляна Пик»;icons/hotel.svg;1;;
-36;5561;6703;Pine River;icons/hotel.svg;1;;
-37;2563;1001;Школа № 65;icons/school.svg;2;;
-38;2550;237;Геккон;icons/cafe.svg;3;;
-39;2946;68;Почта;icons/post.svg;4;;
-40;4293;1726;Аптека;icons/pharmacy.svg;4;;
-41;4302;1516;KRB Buffet;icons/cafe.svg;3;;
-42;4009;1403;Храм св. Харалампия;icons/church.svg;1;;
-43;4218;1166;Танго в поляне Редэнс;icons/hotel.svg;1;;
-44;3707;899;Администрация Краснополянского округа;icons/government.svg;2;;
-45;3471;1701;Библиотека;icons/library.svg;1;;
-46;3501;1207;Barabas Espresso Bar;icons/coffee.svg;3;;
-47;2950;1517;Пункт проката;icons/rent.svg;4;;
-48;2807;1417;ДК «Красная Поляна»;icons/culture_center.svg;2;;
-49;2507;1444;Пункт проката;icons/rent.svg;4;;
-50;2621;1444;Ариадна;icons/grocery.svg;1;;
-51;1566;1061;Пункт проката;icons/rent.svg;4;;
-52;1399;2099;Пункт проката;icons/rent.svg;4;;
-53;564;1540;Heavy Metal Fitness;icons/fitness.svg;2;;
-54;716;1579;Магнит;icons/grocery.svg;1;;
-55;1582;1716;Co-Co Chalet;icons/cafe.svg;3;;
-56;1586;1840;Лес-Forest;icons/hotel.svg;1;;
-57;1983;1740;Пункт проката;icons/rent.svg;4;;
-58;2098;1740;Powder Coffee;icons/coffee.svg;3;;
-59;2555;2012;Heavy Metal Fitness;icons/fitness.svg;2;;
-60;2049;2082;Пятёрочка;icons/grocery.svg;1;;
-61;1932;2082;Горная Дача;icons/hotel.svg;1;;
-62;1984;2520;Продуктовый рынок;icons/market.svg;2;;
-63;2874;2969;Смена обстановки;icons/bar.svg;1;;
-64;4560;2395;The Kenny;icons/bar.svg;1;;
-65;4362;3616;Мёд;icons/cafe.svg;3;;
-66;4362;3734;Hills Polyana Hotel & Spa;icons/hotel.svg;1;;
-67;3980;4352;Эльпида;icons/hotel.svg;1;;
-68;3687;4117;Сельпо;icons/grocery.svg;1;;
-69;4008;3546;Atmosphere;icons/hotel.svg;1;;
-70;3718;3686;Пункт проката;icons/rent.svg;4;;
-71;2643;3748;Бросто Кофе;icons/cafe.svg;3;;
-72;2673;4268;У Сёмы;icons/cafe.svg;3;;
-73;1751;4703;Черёмушки 24 часа;icons/grocery.svg;1;;
-74;1751;4822;Аптека;icons/pharmacy.svg;4;;
-75;2662;4912;Mechanica Coffee;icons/coffee.svg;3;;
-76;2264;4832;Пятёрочка;icons/grocery.svg;1;;
-77;3395;5447;Surf Coffee;icons/coffee.svg;3;;
-78;3232;5447;Свои;icons/bar.svg;1;;
-79;2451;5141;Шашлычная;icons/cafe.svg;3;;
-80;2241;5237;Магнит;icons/grocery.svg;1;;
-81;2240;5365;Аптека;icons/pharmacy.svg;4;;
-82;2348;5543;Soul Food;icons/cafe.svg;3;;
-83;2527;5820;Горный уют;icons/hotel.svg;1;;
-84;2670;5820;Провинция;icons/cafe.svg;3;;
-85;2815;5874;Золотая Нива;icons/mall.svg;1;;
+﻿id;x;y;name;icon;priority;photo;desc;address;phone;website;hours
+1;1043;1344;Вертодром;icons/heliport.svg;1;;info;пгт Красная Поляна;;;08:00 – 22:00
+2;2605;1709;Реми;icons/mall.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+3;3711;139;Аптека;icons/pharmacy.svg;4;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+4;2486;1830;Аптека;icons/pharmacy.svg;4;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+5;5015;2834;Счастье в горах;icons/hotel.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+6;1619;3279;Натуралист;icons/bar.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+7;2606;1829;Point Coffee;icons/coffee.svg;3;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+8;3537;3810;Dream Coffee;icons/coffee.svg;3;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+9;1823;3386;Рай-Ski-Домик;icons/hotel.svg;1;photos/hotel.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+10;3003;3750;Поляна 515;icons/hotel.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+11;4736;2407;Парк Шале;icons/hotel.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+12;1291;3276;Династия;icons/hotel.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+13;2485;1710;Greek House;icons/hotel.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+14;2832;2425;Булки в горах;icons/cafe.svg;3;photos/cafe.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+15;3218;2324;Alba Inn Apartments;icons/hotel.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+16;2828;622;Mom’s Coffee;icons/coffee.svg;3;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+17;1406;3954;Greco Megusto;icons/cafe.svg;3;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+18;4135;6323;Дзен Поляна;icons/hotel.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+19;3248;6770;Ровесники;icons/cafe.svg;3;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+20;2764;6835;Трикони;icons/cafe.svg;3;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+21;2374;7214;Утомлённые солнцем;icons/hotel.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+22;1396;8101;Alm House;icons/hotel.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+23;1765;10238;Парк «Фруктовый сад»;icons/park.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+24;3102;10556;Беларусь;icons/hotel.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+25;2474;6450;Вальс цветов Редэнс;icons/hotel.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+26;4494;1512;Тукан;icons/hotel.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+27;1587;426;Solar;icons/hotel.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+28;3257;1323;4Rest Neolit;icons/hotel.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+29;5974;2442;Яблоки печём;icons/cafe.svg;3;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+30;1330;9184;Вареничная;icons/cafe.svg;3;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+31;1261;9320;АЗС;icons/fuel.svg;4;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+32;2335;5023;Пункт проката;icons/rent.svg;4;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+33;1357;8491;Пункт проката;icons/rent.svg;4;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+34;2427;7093;Пункт проката;icons/rent.svg;4;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+35;2154;8519;ГК «Поляна Пик»;icons/hotel.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+36;5561;6703;Pine River;icons/hotel.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+37;2563;1001;Школа № 65;icons/school.svg;2;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+38;2550;237;Геккон;icons/cafe.svg;3;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+39;2946;68;Почта;icons/post.svg;4;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+40;4293;1726;Аптека;icons/pharmacy.svg;4;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+41;4302;1516;KRB Buffet;icons/cafe.svg;3;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+42;4009;1403;Храм св. Харалампия;icons/church.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+43;4218;1166;Танго в поляне Редэнс;icons/hotel.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+44;3707;899;Администрация Краснополянского округа;icons/government.svg;2;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+45;3471;1701;Библиотека;icons/library.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+46;3501;1207;Barabas Espresso Bar;icons/coffee.svg;3;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+47;2950;1517;Пункт проката;icons/rent.svg;4;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+48;2807;1417;ДК «Красная Поляна»;icons/culture_center.svg;2;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+49;2507;1444;Пункт проката;icons/rent.svg;4;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+50;2621;1444;Ариадна;icons/grocery.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+51;1566;1061;Пункт проката;icons/rent.svg;4;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+52;1399;2099;Пункт проката;icons/rent.svg;4;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+53;564;1540;Heavy Metal Fitness;icons/fitness.svg;2;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+54;716;1579;Магнит;icons/grocery.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+55;1582;1716;Co-Co Chalet;icons/cafe.svg;3;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+56;1586;1840;Лес-Forest;icons/hotel.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+57;1983;1740;Пункт проката;icons/rent.svg;4;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+58;2098;1740;Powder Coffee;icons/coffee.svg;3;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+59;2555;2012;Heavy Metal Fitness;icons/fitness.svg;2;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+60;2049;2082;Пятёрочка;icons/grocery.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+61;1932;2082;Горная Дача;icons/hotel.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+62;1984;2520;Продуктовый рынок;icons/market.svg;2;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+63;2874;2969;Смена обстановки;icons/bar.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+64;4560;2395;The Kenny;icons/bar.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+65;4362;3616;Мёд;icons/cafe.svg;3;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+66;4362;3734;Hills Polyana Hotel & Spa;icons/hotel.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+67;3980;4352;Эльпида;icons/hotel.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+68;3687;4117;Сельпо;icons/grocery.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+69;4008;3546;Atmosphere;icons/hotel.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+70;3718;3686;Пункт проката;icons/rent.svg;4;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+71;2643;3748;Бросто Кофе;icons/cafe.svg;3;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+72;2673;4268;У Сёмы;icons/cafe.svg;3;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+73;1751;4703;Черёмушки 24 часа;icons/grocery.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+74;1751;4822;Аптека;icons/pharmacy.svg;4;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+75;2662;4912;Mechanica Coffee;icons/coffee.svg;3;photos/id75.webp;Mechanica Coffee — это уютная кофейня с панорамными окнами, верандой и видом на горы. Здесь можно позавтракать, перекусить хот-догом или десертом, а также приобрести кофе собственной обжарки в зёрнах или попросить его помолоть.;ул. Турчинского, 90;+7 (977) 021-91-69;https://t.me/mechanicacoffee;07:00 – 23:00
+76;2264;4832;Пятёрочка;icons/grocery.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+77;3395;5447;Surf Coffee;icons/coffee.svg;3;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+78;3232;5447;Свои;icons/bar.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+79;2451;5141;Шашлычная;icons/cafe.svg;3;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+80;2241;5237;Магнит;icons/grocery.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+81;2240;5365;Аптека;icons/pharmacy.svg;4;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+82;2348;5543;Soul Food;icons/cafe.svg;3;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+83;2527;5820;Горный уют;icons/hotel.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+84;2670;5820;Провинция;icons/cafe.svg;3;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00
+85;2815;5874;Золотая Нива;icons/mall.svg;1;photos/kp1.jpg;info;пгт Красная Поляна;+7  (999) 123-45-67;www.site.ru;08:00 – 22:00

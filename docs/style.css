@@ -1,3 +1,26 @@
+@font-face {
+  font-family: 'Circe';
+  src: url('./fonts/Circe-Regular.woff2') format('woff2'),
+       url('./fonts/Circe-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Circe';
+  src: url('./fonts/Circe-Bold.woff2') format('woff2'),
+       url('./fonts/Circe-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Circe', sans-serif;
+}
+
+
 html, body { margin: 0; height: 100%; }
 
 #map-container {
@@ -49,13 +72,17 @@ html, body { margin: 0; height: 100%; }
 
 /* Подпись — многострочная, без фона, с белой обводкой */
 .poi-label {
+  font-family: 'Circe', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.02em;
   color: #333;                         /* тёмно-серый */
-  font: 13px/1.2 system-ui, sans-serif;
   max-width: 140px;
   white-space: normal;
   word-wrap: break-word;
+  line-height: 1;
   text-align: center;                  /* базово центр — JS меняет по стороне */
-  text-shadow:
+    text-shadow:
     -2px -2px 0 #fff,  2px -2px 0 #fff,
     -2px  2px 0 #fff,  2px  2px 0 #fff,
      0   -2px 0 #fff,  0    2px 0 #fff,
@@ -68,40 +95,144 @@ html, body { margin: 0; height: 100%; }
 /* === POPUP === */
 .poi-popup {
   position: absolute;
-  z-index: 10;
-  width: min(320px, 88vw);
-  max-height: 80vh;
-  overflow: auto;
+  z-index: 50;
+  display: none;
+}
+.poi-popup.is-open { display: block; }
+
+/* Кнопка закрытия (крестик в правом верхнем углу карточки) */
+/* Крестик теперь позиционируется относительно .poi-card */
+.poi-popup__close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 2;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: none;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.9);
+  color: #555;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+.poi-popup__close:hover { background: #fff; color: #111; }
+.poi-popup__close svg { width: 18px; height: 18px; display: block; }
+
+/* Карточка */
+.poi-card {
+  position: relative;   /* чтобы крестик визуально был над карточкой */
+  width: min(360px, 80vw);
   background: #fff;
-  color: #111;
   border-radius: 12px;
-  box-shadow: 0 12px 32px rgba(0,0,0,.35);
-  border: 1px solid rgba(0,0,0,.08);
-  padding: 10px 12px;
-  visibility: hidden; /* скрыт по умолчанию */
-  pointer-events: auto; /* позволяем скролл/клики в попапе */
+  box-shadow: 0 8px 28px rgba(0,0,0,0.25);
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.06);
+  pointer-events: auto; /* явное разрешение событий внутри */
 }
 
-.poi-popup.is-open {
-  visibility: visible;
-}
-
-.poi-popup__photo {
+/* Фото */
+.poi-card__media {
+  position: relative;
+  background: #f4f4f4;
+  overflow: hidden;
+  /* убрал max-height, чтобы не срезать вертикальные фото жестко */
   width: 100%;
-  max-height: 40vh;      /* чтобы вертикальные не растягивали экран */
-  display: block;
-  object-fit: cover;     /* аккуратно заполняем блок */
-  border-radius: 8px;
 }
 
-.poi-popup__title {
-  margin: 10px 0 4px;
-  font: 600 16px/1.3 system-ui, sans-serif;
+.poi-card__media img {
+  display: block;
+  width: 100%;     /* подгоняем по ширине поп-апа */
+  height: auto;    /* сохраняем пропорции */
+  object-fit: cover; /* можно заменить на 'contain', если не хочешь кроп */
+}
+
+/* Тело */
+.poi-card__body {
+  padding: 12px 14px 14px;
+}
+
+/* Заголовок */
+.poi-card__title {
+  margin: 0 0 6px 0;
+  font-weight: 700;         /* Circe Bold */
+  font-size: 18px;
+  line-height: 1.3;
   color: #111;
 }
 
-.poi-popup__desc {
-  margin: 0;
-  font: 14px/1.4 system-ui, sans-serif;
+/* Краткое описание */
+.poi-card__desc {
+  font-weight: 300;         /* Circe Light */
+  font-size: 14px;
+  line-height: 1.45;
   color: #333;
+}
+.poi-card__desc p { margin: 0 0 6px; }
+.poi-card__desc ul, .poi-card__desc ol { margin: 6px 0 6px 18px; }
+
+/* Секции */
+.poi-card__sections {
+  margin-top: 10px;
+  display: grid;
+  gap: 10px;
+}
+.poi-card__row { 
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 10px;
+  row-gap: 4px;
+}
+
+/* Заголовок секции (иконка + подпись) */
+.poi-card__head {
+  display: inline-flex;
+  align-items: baseline;  /* ориентируемся на базовую линию текста */
+  gap: 8px;
+}
+
+.poi-card__icon {
+  display: inline-flex;
+  line-height: 1;         /* чтобы высота бралась от размера шрифта рядом */
+  color: #6b7280;         /* нейтрально-серый */
+}
+
+.poi-card__icon svg {
+  width: 1em;             /* высота = высоте строки текста */
+  height: 1em;
+  display: block;
+}
+
+.poi-card__label {
+  font-weight: 700;       /* Circe Bold */
+  font-size: 13px;
+  line-height: 1.2;
+  color: #222;
+}
+
+/* Значение секции */
+.poi-card__value {
+  grid-column: 1 / -1;
+  font-weight: 300;         /* Circe Light */
+  font-size: 14px;
+  line-height: 1.45;
+  color: #2a2a2a;
+}
+
+/* Ссылки */
+.poi-card__link {
+  color: #0a66c2;
+  text-decoration: none;
+  word-break: break-word;
+}
+.poi-card__link:hover { text-decoration: underline; }
+
+/* Если карточка слишком высокая */
+.poi-popup .poi-card {
+  max-height: 70vh;
+  overflow: auto;
 }
