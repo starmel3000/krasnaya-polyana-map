@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 25.51 25.51">
+  <!-- Generator: Adobe Illustrator 29.4.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 152)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #fff;
+      }
+
+      .st1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.2px;
+      }
+
+      .st2 {
+        fill: #675e6b;
+      }
+    </style>
+    <symbol id="orthodoxy" viewBox="0 0 25.51 25.51">
+      <g>
+        <rect class="st2" x="0" y="0" width="25.51" height="25.51" rx="3.03" ry="3.03"/>
+        <g>
+          <path class="st0" d="M7.14,13.35c6.8-.17,11.57.32,11.87-.26.38-.74-.41-2.85-.98-3.7-1.46-2.16-3.67-3.15-7.2-2.21-2.62.7-4.12,3.27-4.42,5.82-.02.26.25.37.74.36Z"/>
+          <path class="st0" d="M19.07,23.03c-.05.06-.9.1-2.14.13,0-.93,0-2.76,0-3.53,0-1.16-.64-2.33-1.55-2.33s-1.75,1.17-1.75,2.33c0,.85,0,2.66,0,3.57-.59,0-1.18,0-1.77,0,0-.92,0-2.78,0-3.57,0-1.16-.73-2.33-1.64-2.33s-1.65,1.17-1.65,2.33c0,.84,0,2.61,0,3.53-1.24-.03-2.1-.07-2.16-.12-.22-.22-.19-7.88-.01-8.34.16-.42,12.4-.31,12.63,0,.3.4.17,8.17.01,8.34Z"/>
+          <path class="st1" d="M12.76,8.16V2.6"/>
+          <line class="st1" x1="11.22" y1="4.25" x2="14.29" y2="4.21"/>
+        </g>
+      </g>
+    </symbol>
+  </defs>
+  <use id="_Храм_св._Харалампия" data-name="Храм_св._Харалампия" width="25.51" height="25.51" xlink:href="#orthodoxy"/>
+</svg>
