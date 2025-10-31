@@ -21,19 +21,22 @@ body {
 }
 
 
-html, body { margin: 0; height: 100%; }
+html, body { margin: 0; height: 100%; overflow: hidden;}
 
 #map-container {
-  width: 100%;
-  height: 100%;
-  background: #2c2c2c;
-  position: relative;
+  position: fixed;
+  inset: 0;
+  display: block;
+  width: 100vw;
+  height: 100vh;
   overflow: hidden;
+  background-color: #2c2c2c;    /* фон, чтобы не было белых полей */
 }
+
 
 /* Слой POI — абсолют поверх карты, занимает весь контейнер */
 #poi-layer {
-  position: absolute;
+  position: fixed;
   inset: 0;
   pointer-events: none;   /* жесты карты проходят через слой */
   z-index: 5;             /* поверх холста OSD */
@@ -43,7 +46,7 @@ html, body { margin: 0; height: 100%; }
 .controls {
   position: fixed;
   top: 12px;
-  right: 20px;
+  right: 40px;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -91,6 +94,46 @@ html, body { margin: 0; height: 100%; }
 
 /* Скрытие при деклаттере — только невидимость, НЕ display:none! */
 .poi-hidden { visibility: hidden; }
+
+/* Горизонтальная полоса прокрутки снизу */
+.scrollbox.horizontal {
+  position: fixed;
+  left: 60px;           /* чтобы не закрывать кнопку reset/zoom */
+  right: 60px;
+  bottom: 16px;
+  height: 16px;         /* высота дорожки */
+  overflow-x: auto;
+  overflow-y: hidden;
+  z-index: 60;
+  background: transparent;
+}
+
+/* Вертикальная полоса прокрутки справа */
+.scrollbox.vertical {
+  position: fixed;
+  right: 16px;
+  top: 60px;
+  bottom: 60px;
+  width: 16px;          /* ширина дорожки */
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 60;
+  background: transparent;
+}
+
+/* Внутренняя «начинка», задаёт длину дорожки */
+.scroll-fill {
+  width: 100%;
+  height: 100%;
+}
+
+/* горизонтальной нужно растянуть ширину, вертикальной — высоту */
+#h-fill { height: 1px; }    /* тонкая полоска, ширину задаём из JS */
+#v-fill { width: 1px; }     /* ширину фиксируем, высоту задаём из JS */
+
+/* Кнопки зума поверх полос */
+.controls { z-index: 70; }
+
 
 /* === POPUP === */
 .poi-popup {
@@ -236,3 +279,70 @@ html, body { margin: 0; height: 100%; }
   max-height: 70vh;
   overflow: auto;
 }
+/* БАЗОВЫЕ размеры (desktop) */
+:root {
+  --ui-font: 16px;
+  --poi-icon: 24px;
+  --label-font: 14px;
+  --popup-width: 360px;
+}
+
+/* MOBILE: делаем всё крупнее и проще */
+@media (max-width: 768px) {
+  :root {
+    --ui-font: 17px;          /* базовый размер текста */
+    --poi-icon: 32px;         /* крупнее иконки для тач-хитов */
+    --label-font: 16px;       /* подписи читаемее */
+    --popup-width: min(92vw, 420px);
+  }
+
+  /* прячем «нативные» скролл-боксы на мобильном — панорамим жестами */
+  .scrollbox.horizontal,
+  .scrollbox.vertical { display: none !important; }
+
+  /* кнопки контролов — чуть больше и дальше от краёв */
+  .controls {
+    bottom: 20px;
+    right: 20px;
+    gap: 10px;
+  }
+  .controls button {
+    width: 44px;
+    height: 44px;
+    font-size: 22px;
+  }
+
+  /* иконки/подписи POI */
+  .poi-icon {
+    width: var(--poi-icon);
+    height: var(--poi-icon);
+  }
+  .poi-label {
+    font-size: var(--label-font);
+    text-shadow:
+      -1px -1px 0 #fff, 1px -1px 0 #fff,
+      -1px  1px 0 #fff, 1px  1px 0 #fff,
+       0    0    3px #fff;
+  }
+
+  /* поп-ап шире, типографика крупнее, тач-цели больше */
+  .poi-card {
+    width: var(--popup-width);
+    border-radius: 14px;
+  }
+  .poi-card__title { font-size: 20px; line-height: 1.35; }
+  .poi-card__desc,
+  .poi-card__value { font-size: 16px; line-height: 1.5; }
+  .poi-card__label { font-size: 14px; }
+  .poi-popup__close {
+    width: 36px; height: 36px;
+  }
+}
+
+/* глобальная база */
+body, .poi-label, .poi-popup, .poi-card, .controls button {
+  font-size: var(--ui-font);
+}
+
+/* чтобы поп-ап не был слишком узким/широким на разных экранах */
+.poi-card { width: min(var(--popup-width), 80vw); }
